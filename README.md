@@ -1,0 +1,2 @@
+Install
+run initshell.zsh
