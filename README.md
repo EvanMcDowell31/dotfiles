@@ -1,7 +1,8 @@
 Install
 -------
 
-run ```init.sh``` in ~ directory
+```git clone https://github.com/EvanMcDowell31/dotfiles.git ~/evansdotfiles/dotfiles```
+run ```~/evansdotfiles/dotfiles/init/init.sh``` in ~ directory
 
 Install antigen 
 ---------------
