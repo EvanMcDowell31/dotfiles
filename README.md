@@ -1,2 +1,2 @@
-Install
-run initshell.zsh
+Evans dotfiles
+===================
