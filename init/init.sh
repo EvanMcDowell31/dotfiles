@@ -36,22 +36,6 @@ main(){
     echo running rcup and symlinking
     env RCRC=$HOME/dotfiles/rcrc rcup
     rcup
-
-    # install antigen
-    curl -L git.io/antigen > antigen.zsh
-    
-    # run Zsh
-    zsh
-    
-    # Load the oh-my-zsh's library.
-    antigen use oh-my-zsh
-    
-    # setup antigen with theme
-    cp $HOME/dotfiles-local/zsh/wades.zsh-theme $HOME/.antigen/bundles/robbyrussell/oh-my-zsh/custom/themes/wades.zsh-theme
-    antigen theme wades
-    
-    # antigen finish
-    antigen apply
 }
 
 main
