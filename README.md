@@ -17,3 +17,5 @@ Change and apply theme with antigen
 
 ```antigen apply```
 
+```zsh```
+
