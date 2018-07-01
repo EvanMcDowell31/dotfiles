@@ -47,6 +47,7 @@ main(){
     antigen use oh-my-zsh
     
     # setup antigen with theme
+    cp ~/dotfiles-local/zsh/wades.zsh-theme ~/.antigen/bundles/robbyrussell/oh-my-zsh/custom/themes/wades.zsh-theme
     antigen theme wades
     
     # antigen finish
