@@ -48,7 +48,8 @@ _load_settings "$HOME/.zsh/configs"
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 # install antigen
-[[ -f ~/.antigen ]] && source ~/.antigen
+#[[ -f ~/.antigen ]] && source ~/.antigen
+brew install antigen
 source ~/antigen.zsh
 
 # Load the oh-my-zsh's library.
