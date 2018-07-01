@@ -40,7 +40,7 @@ main(){
     zsh
     
     # install antigen
-    brew install antigen
+    curl -L git.io/antigen > antigen.zsh
     source $HOME/antigen.zsh
     
     # Load the oh-my-zsh's library.
