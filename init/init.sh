@@ -37,7 +37,7 @@ main(){
     env RCRC=$HOME/dotfiles/rcrc rcup
     rcup
     
-    #zsh
+    zsh
     
     # install antigen
     #curl -L git.io/antigen > antigen.zsh
