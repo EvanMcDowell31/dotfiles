@@ -1,6 +1,12 @@
 Evans dotfiles
 ===================
 
+Wades Theme
+-----------
+
+![alt text](WadesThemeV1.png "Wades Theme v1")
+
+
 Install
 -------
 Cone to dotfiles-local in your home directory
