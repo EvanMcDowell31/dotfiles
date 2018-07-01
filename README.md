@@ -4,7 +4,7 @@ Evans dotfiles
 Wades Theme
 -----------
 
-![alt text](WadesThemeV1.png "Wades Theme v1")
+![alt text](screenshots\WadesThemeV1.png "Wades Theme v1")
 
 
 Install
