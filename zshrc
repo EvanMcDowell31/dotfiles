@@ -1,4 +1,4 @@
-source /path-to-antigen/antigen.zsh
+source ~/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -15,7 +15,6 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
 antigen theme wades
-
 
 # Tell Antigen that you're done.
 antigen apply
