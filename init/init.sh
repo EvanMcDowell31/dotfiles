@@ -24,10 +24,6 @@ main(){
     echo installing ohmyzsh
     sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-    # making local dotfile overrides
-    echo making ~/dotfiles-local
-    mkdir ~/dotfiles-local
-
     # install rcm ------------------------------------------
     echo installing rcm
     brew tap thoughtbot/formulae
