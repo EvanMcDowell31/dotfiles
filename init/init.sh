@@ -29,7 +29,7 @@ main(){
     brew tap thoughtbot/formulae
 
     brew install rcm 
-    brew reinstall rcm
+    #brew reinstall rcm
 
     # install dot files 
     #This command will create symlinks for config files in your home directory.
@@ -37,21 +37,21 @@ main(){
     env RCRC=$HOME/dotfiles/rcrc rcup
     rcup
     
-    zsh
+    #zsh
     
     # install antigen
-    brew install antigen
-    source $HOME/antigen.zsh
+    #curl -L git.io/antigen > antigen.zsh
+    #source $HOME/antigen.zsh
     
     # Load the oh-my-zsh's library.
-    antigen use oh-my-zsh
+    #antigen use oh-my-zsh
     
     # Load the theme.
-    cp $HOME/dotfiles-local/zsh/wades.zsh-theme $HOME/.antigen/bundles/robbyrussell/oh-my-zsh/themes/wades.zsh-theme
-    antigen theme wades
+    #cp $HOME/dotfiles-local/zsh/wades.zsh-theme $HOME/.antigen/bundles/robbyrussell/oh-my-zsh/themes/wades.zsh-theme
+    #antigen theme wades
 
     # Tell Antigen that you're done.
-    antigen apply
+    #antigen apply
     
     
 }
