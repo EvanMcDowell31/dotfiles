@@ -13,7 +13,7 @@ main(){
 
     # change shell to Zsh
     #echo running zsh
-    zsh
+    #zsh
 
     # download TB dotfiles- -----------------------------------------
     # install thoughtbot dot files
