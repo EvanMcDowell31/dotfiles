@@ -24,10 +24,6 @@ main(){
     echo installing ohmyzsh
     sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-    # install antigen
-    curl -L git.io/antigen > antigen.zsh
-    source $HOME/antigen.zsh
-
     # install rcm ------------------------------------------
     echo installing rcm
     brew tap thoughtbot/formulae
@@ -41,11 +37,15 @@ main(){
     env RCRC=$HOME/dotfiles/rcrc rcup
     rcup
     
+    # install antigen
+    curl -L git.io/antigen > antigen.zsh
+    source $HOME/antigen.zsh
+    
     # Load the oh-my-zsh's library.
     antigen use oh-my-zsh
     
     # Load the theme.
-    cp $HOME/dotfiles-local/zsh/wades.zsh-theme $HOME/.antigen/bundles/robbyrussell/oh-my-zsh/custom/themes/wades.zsh-theme
+    cp $HOME/dotfiles-local/zsh/wades.zsh-theme $HOME/.antigen/bundles/robbyrussell/oh-my-zsh/themes/wades.zsh-theme
     antigen theme wades
 
     # Tell Antigen that you're done.
