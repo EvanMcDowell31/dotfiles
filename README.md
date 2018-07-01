@@ -11,3 +11,9 @@ Then run init.sh
 
 ```~/dotfiles-local/init/init.sh```
 
+Change and apply theme with antigen
+
+```antigen theme wades```
+
+```antigen apply```
+
