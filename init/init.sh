@@ -13,7 +13,7 @@ main(){
 
     # change shell to Zsh
     #echo running zsh
-    #zsh
+    zsh
 
     # download TB dotfiles- -----------------------------------------
     # install thoughtbot dot files
@@ -23,6 +23,9 @@ main(){
     # install oh my Zsh via wget ------------------------------------------
     echo installing ohmyzsh
     sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+    
+
 
     # install rcm ------------------------------------------
     echo installing rcm
