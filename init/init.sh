@@ -37,6 +37,8 @@ main(){
     env RCRC=$HOME/dotfiles/rcrc rcup
     rcup
     
+    zsh
+    
     # install antigen
     curl -L git.io/antigen > antigen.zsh
     source $HOME/antigen.zsh
@@ -50,6 +52,8 @@ main(){
 
     # Tell Antigen that you're done.
     antigen apply
+    
+    
 }
 
 main
